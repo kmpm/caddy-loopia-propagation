@@ -1,4 +1,6 @@
 
 
 bin/
-Caddyfile
+var/
+Caddyfile*
+*.log
