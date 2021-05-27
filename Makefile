@@ -5,7 +5,7 @@ EXEEXT=.exe
 endif
 
 
-binfile=$(bindir)/caddy$(EXEEXT)
+binfile?=$(bindir)/caddy$(EXEEXT)
 
 .PHONY: all
 
