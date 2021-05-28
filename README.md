@@ -13,3 +13,10 @@ git clone -- recurse-submodules https://github.com/kmpm/caddy-loopia-propagation
 cd caddy-loopia-propagation
 make
 ```
+
+
+## Debug DNS
+```shell
+sudo tcpdump -w dns.pcap -i wlan0 not port 22
+tcpdump -n -t -t -r dns.pcap port 53
+`` 

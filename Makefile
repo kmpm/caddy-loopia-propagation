@@ -17,7 +17,8 @@ build: $(bindir)
 	xcaddy build \
 		--output $(binfile) \
 		--with github.com/caddy-dns/loopia \
-		--with github.com/caddyserver/caddy/v2=./caddy
+		--with github.com/caddyserver/caddy/v2=./caddy \
+		--with github.com/caddyserver/certmagic=./certmagic
 
 
 $(bindir):
